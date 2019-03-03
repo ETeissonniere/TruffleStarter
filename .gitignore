@@ -13,3 +13,6 @@ abi/
 build/
 bytecode/
 bytecode_new/
+
+# secrets
+.env
