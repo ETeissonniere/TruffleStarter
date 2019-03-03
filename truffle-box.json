@@ -1,0 +1,19 @@
+{
+  "ignore": [ "README.md" ],
+  "commands": {
+      "Access truffle console": "npm run console",
+      "Compile contracts": "npm run compile",
+      "Run tests": "npm test",
+      "Show gas costs": "npm run test:gas",
+      "Generate coverage report": "npm run test:coverage",
+      "Flatten a contract": "npx truffle-flattener <path to .sol files>",
+      "Extract ABIs": "npm run abi:extract",
+      "Extract bytecode": "npm run bytecode:extract",
+      "Compare old and new bytecode": "npm run bytecode:compare",
+      "Lint files": "npm run lint",
+      "Fix JS linter errors": "npm run lint:fix"
+  },
+  "hooks": {
+    "post-unpack": "npm install"
+  }
+}
