@@ -12,3 +12,6 @@ It features:
 - awesome `truffle-config.js` file
 
 Get started with `npx truffle unbox ETeissonniere/TruffleStarter`.
+
+You will need to define the `MNEMONIC` and `INFURA_API_KEY`, to do so you
+can copy `.env.example` to `.env` (ignored by git) and edit it.
