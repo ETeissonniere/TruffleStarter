@@ -20,7 +20,6 @@
     "web3": false,
   },
   "rules": {
-
     // Strict mode
     "strict": ["error", "global"],
 
@@ -47,7 +46,7 @@
     "object-curly-spacing": ["error", "always"],
     "prefer-const": "error",
     "quotes": ["error", "single"],
-    "semi": ["error", "always"],
+    "semi": ["error", "never"],
     "space-before-function-paren": ["error", "always"],
 
     "mocha-no-only/mocha-no-only": ["error"],
