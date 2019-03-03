@@ -1,5 +1,5 @@
 {
-  "ignore": [ "README.md" ],
+  "ignore": [ "README.md", "contracts/Example.sol", "test/example.js" ],
   "commands": {
       "Access truffle console": "npm run console",
       "Compile contracts": "npm run compile",
